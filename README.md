@@ -9,7 +9,10 @@ Provides a quick Docker, theme, and Grunt setup.
 3. Open `docker-compose.yml` and replace `{YOUR_THEME}` with your theme name
 4. Run `docker-compose up`
 5. Setup Wordpress
-6. Run `grunt watch`
+6. Run `npm install`
+7. Run `grunt watch`
+
+Before deploying to production, run `grunt release` which will prep files for production (minify, autoprefix, transpile, etc).
 
 ## Reference
 
